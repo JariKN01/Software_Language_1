@@ -45,6 +45,9 @@ if ($speaksDutch = true){
     echo "Spreekt geen Nederlands" . "<br>";
 }
 
+//Ik kwam er zelf niet uit om de kleur aan te passen afhankelijk van de tijd van de dag. Dus ik met behulp van Google en hulp van mijn broer
+//Deze uitwerking gemaakt. 
+
 date('H:i');
 
 function backgroundColor(){
