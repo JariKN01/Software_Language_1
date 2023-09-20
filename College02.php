@@ -14,7 +14,7 @@ echo "<h1>Foreach loop</h1>";
 // foreach loop
 
 
-$klas = ['Persoon 1','Persoon 2','Persoon 3','Persoon 4'];
+$klas = ['Jan','Piet','Gerda','Bert'];
 
 foreach ($klas as $leerling){
     echo "Naam van leerling: " . $leerling . "<br>";
