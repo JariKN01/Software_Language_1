@@ -2,7 +2,8 @@
 
 include '../functions/users.php';
 
-$userToDisplayId = $_GET['id']; // Ensure you sanitize and validate this input
+
+$userToDisplayId = $_GET['id'];
 
 // Find the user data from the array
 

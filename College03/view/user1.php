@@ -13,7 +13,8 @@ include '../functions/userDetails.php';
 </head>
 <body>
 <?php
-displayUserDetails($users);
+    // Display users details wutg the right id of the user
+    displayUserDetails($users);
 ?>
 <p><a href="../view/index.view.php">Terug naar gebruikers</a></p>
 </body>

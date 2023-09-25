@@ -1,5 +1,5 @@
 <?php
-
+// Making an array of all teammembers
 $users = [
     [
         'id' => 1,

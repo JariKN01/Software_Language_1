@@ -2,8 +2,8 @@
 
 function displayUserDetails($value)
 {
-    // Get the user ID from the URL parameter
-    $userToDisplayId = $_GET['id']; // Ensure you sanitize and validate this input
+    // Get the user ID
+    $userToDisplayId = $_GET['id'];
 
     // Find the user data from the array
     $selectedUser = null;
@@ -14,6 +14,7 @@ function displayUserDetails($value)
         }
     }
 
+    // echo out de user data from array
     if ($selectedUser) {
         echo '<h1>User Details</h1>';
         echo '<p>Naam: ' . $selectedUser['firstname'] . '</p>';

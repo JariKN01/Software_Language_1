@@ -15,9 +15,7 @@ include '../functions/userList.php';
 <body>
 <h1>Gebruikers</h1><hr>
 <ul>
-    <!--    --><?php //foreach ($users as $user): ?>
-    <!--        <li><a href="user1.php?id=--><?php //echo $user['id']; ?><!--">--><?php //echo $user['username']; ?><!--</a></li>-->
-    <!--    --><?php //endforeach; ?>
+    // Display the function to display users in a list
     <?php displayUserList($users); ?>
 </ul>
 </body>
