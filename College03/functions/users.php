@@ -1,25 +1,32 @@
 <?php
-// Making an array of all teammembers
+
 $users = [
     [
-        'id' => 1,
+        'id' => 0,
         'firstname' => 'Jari',
         'lastname' => 'Knoop',
-        'email' => 'user1@example.com',
+        'email' => 'jari.knoop@windesheim.nl',
         'age' => '21',
     ],
     [
-        'id' => 2,
+        'id' => 1,
         'firstname' => 'Rik',
         'lastname' => 'Bakker',
-        'email' => 'user2@example.com',
+        'email' => 'rik.bakker@windesheim.nl',
         'age' => '20',
     ],
     [
-        'id' => 3,
+        'id' => 2,
         'firstname' => 'Ashraf',
         'lastname' => 'Bakker',
-        'email' => 'user3@example.com',
+        'email' => 'ashraf.basnoe@windesheim.nl',
         'age' => '21',
+    ],
+    [
+        'id' => 3,
+        'firstname' => 'Dorian',
+        'lastname' => 'Baies',
+        'email' => 'dorian.baies@windesheim.nl',
+        'age' => '26',
     ],
 ];

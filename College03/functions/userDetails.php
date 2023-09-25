@@ -17,7 +17,7 @@ function displayUserDetails($value)
     // echo out de user data from array
     if ($selectedUser) {
         echo '<h1>User Details</h1>';
-        echo '<p>Naam: ' . $selectedUser['firstname'] . '</p>';
+        echo '<p>Naam: ' . $selectedUser['firstname'] . ' ' .$selectedUser['lastname']. '</p>';
         echo '<p>Email: ' . $selectedUser['email'] . '</p>';
         echo '<p>Leeftijd: ' . $selectedUser['age'] . '<p>';
     } else {

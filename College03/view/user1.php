@@ -16,6 +16,7 @@ include '../functions/userDetails.php';
     // Display users details wutg the right id of the user
     displayUserDetails($users);
 ?>
-<p><a href="../view/index.view.php">Terug naar gebruikers</a></p>
+    // Link back to userslist
+    <p><a href="../view/index.view.php">Terug naar gebruikers</a></p>
 </body>
 </html>
